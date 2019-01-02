@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    service: ve-svc-ambassador
+  name: ve-svc-ambassador
+  annotations:
+    getambassador.io/config: |
+      ---
+      apiVersion: ambassador/v0
+      kind:  Mapping
+      name:  ve-svc
+      prefix: /ve-svc/
+      service: ve-ctrl:7777
+spec:
+  ports:
+  - port: 80
