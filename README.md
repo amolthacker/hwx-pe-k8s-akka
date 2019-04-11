@@ -1,6 +1,7 @@
 # hwx-pe-k8s-akka
 
-A P2P cluster based architectural variation of [hwx-pricing-engine](https://github.com/amolthacker/hwx-pricing-engine)(`hwxpe`) leveraging [Akka Cluster](https://doc.akka.io/docs/akka/current/common/cluster.html) and [Akka HTTP](https://doc.akka.io/docs/akka-http/current/introduction.html) on [K8s](https://kubernetes.io/)
+A P2P cluster based architectural variation of [hwx-pricing-engine](https://github.com/amolthacker/hwx-pricing-engine)(`hwxpe`) leveraging [Akka Cluster](https://doc.akka.io/docs/akka/current/common/cluster.html) and [Akka HTTP](https://doc.akka.io/docs/akka-http/current/introduction.html) on [K8s](https://kubernetes.io/).
+See [HCC article](https://community.hortonworks.com/articles/232285/flexing-your-compute-muscle-with-kubernetes-part-2.html) for more details.
 
 ## Architecture
 
